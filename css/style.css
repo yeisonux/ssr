@@ -223,6 +223,7 @@ ul li {
 
 .listst{
   list-style: circle;
+  margin-left: 20px;
 }
 
 .clients-section {
