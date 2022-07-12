@@ -83,6 +83,10 @@ ul li {
   color: var(--bs-body-color);
 }
 
+.prim-co3{
+  color: var(--bs-primary);
+}
+
 .men_options{
   display: flex;
 }
@@ -92,7 +96,7 @@ ul li {
 }
 
 .hov-alt:hover {
-  color: var(--bs-gray);
+  color: var(--bs-primary);
 }
 
 .icon-co {
@@ -102,6 +106,11 @@ ul li {
 .icon-16{
   max-width: 16px;
   height: 16px;
+}
+
+.icon-32{
+  max-width: 32px;
+  height: 32px;
 }
 
 .btn-primary a{
@@ -117,6 +126,11 @@ ul li {
 
 .btn-primary:hover img{
   transform: translateX(5px);
+}
+
+.up_note{
+	color: var(--bs-orange);
+  margin-bottom: 20px;
 }
 
 .service-5 {
@@ -172,8 +186,7 @@ ul li {
 }
 
 .service-5 .wrap-service5-box .icon-size{
-	font-size: 45px;
-  margin-right: 24px;
+  margin-right: 16px;
 }
 
 .service-5 .btn-success-gradiant {
@@ -197,6 +210,19 @@ ul li {
 .service-5 .btn-md {
   padding: 15px 45px;
   font-size: 16px;
+}
+
+.cta_serv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+  justify-content: center;
+  gap: 16px;
+}
+
+.listst{
+  list-style: circle;
 }
 
 .clients-section {
